@@ -7,5 +7,8 @@ import random
 
 "def gamble"
 
-name = input("Hello there stranger! What is your name?")
-print("Oh, Hello "+name+"!!")
+name = input("Hello there stranger! What is your name? ")
+print("Oh, Hello "+name+"! ")
+
+race = input("What species are you? (Barr/Hagar/Bengan)")
+print("Wow, you are a "+str(race))
